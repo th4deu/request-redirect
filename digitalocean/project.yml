@@ -1,0 +1,7 @@
+packages:
+  - name: proxy
+    functions:
+      - name: redirect
+        runtime: nodejs:18
+        main: index.ts
+        web: true
